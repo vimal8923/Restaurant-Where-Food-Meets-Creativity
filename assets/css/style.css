@@ -5,169 +5,167 @@
 }
 
 :root {
-
-    /* Color  */
+    /* Color */
     --text-dark-color: #101A24;
     --text-body-color: #5C6574;
     --btn-color: #EA6D27;
-    --bg-color-contant: #F3F4F4;
-    --white-color: #fff;
+    --bg-color-content: #F3F4F4;
+    --white-color: #FFFFFF;
 
-    /* Font Family  */
+    /* Font Family */
     --font-family-primary: "Inter", sans-serif;
     --font-family-secondary: "David Libre", serif;
 
-    /* Font Weight  */
+    /* Font Weight */
     --font-regular: 400;
     --font-medium: 500;
     --font-bold: 700;
 
-     /* Font Size */
-    --font-size-70:4.375rem;
-    --font-size-60:3.75rem;
-    --font-size-50:3.125rem;
-    --font-size-20:1.25rem;
-    --font-size-18:1.125rem;
-    --font-size-16:1rem;
-    --font-size-15:.9375rem;
-    --font-size-12:0.75rem;
+    /* Font Size */
+    --font-size-70: 4.375rem;
+    --font-size-60: 3.75rem;
+    --font-size-50: 3.125rem;
+    --font-size-20: 1.25rem;
+    --font-size-18: 1.125rem;
+    --font-size-16: 1rem;
+    --font-size-15: 0.9375rem;
+    --font-size-12: 0.75rem;
 
-    /* Line Hight  */
-    --line-hight-72: 4.5rem;
-    --line-hight-65: 4.0625rem;
-    --line-hight-58: 3.625rem;
-    --line-hight-40: 2.5rem;
-    --line-hight-29: 1.8125rem;
-    --line-hight-26: 1.625rem;
-    --line-hight-21: 1.3125rem;
-
-
+    /* Line Height */
+    --line-height-72: 4.5rem;
+    --line-height-65: 4.0625rem;
+    --line-height-58: 3.625rem;
+    --line-height-40: 2.5rem;
+    --line-height-29: 1.8125rem;
+    --line-height-26: 1.625rem;
+    --line-height-21: 1.3125rem;
 }
-  /* Typography Start*/
 
-/* Text Size  */
+/* Typography Start */
 .text-70 {
-    --font-size-70:4.375rem;
+    font-size: var(--font-size-70);
 }
-
 .text-60 {
-    --font-size-60:3.75rem;
+    font-size: var(--font-size-60);
 }
-
 .text-50 {
-    --font-size-50:3.125rem;
+    font-size: var(--font-size-50);
 }
-
 .text-20 {
-    --font-size-20:1.25rem;
+    font-size: var(--font-size-20);
 }
-
 .text-18 {
-    --font-size-18:1.125rem;
+    font-size: var(--font-size-18);
 }
-
 .text-16 {
-    --font-size-16:1rem;
+    font-size: var(--font-size-16);
 }
-
 .text-15 {
-    --font-size-15:.9375rem;
+    font-size: var(--font-size-15);
 }
-/* Text Size */
 
-h1,h2,h3,h4,h5,h6{
+/* Headings and Paragraphs */
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-secondary);
 }
-.section-title{
+
+p {
+    font-family: var(--font-family-primary);
+}
+
+.section-title {
     font-family: var(--font-family-secondary);
     font-weight: var(--font-bold);
 }
 
-  /* Typography End*/
-
-/* Background Color Start */
-.bg-whiteSmoke{
-    background-color: var(--bg-color-contant);
+a {
+    text-decoration: none;
 }
-.bg-white{
+
+/* Background Colors */
+.bg-whiteSmoke {
+    background-color: var(--bg-color-content);
+}
+
+.bg-white {
     background-color: var(--white-color);
 }
-/* Background Color End */
 
-
-/* Html and Body Start */
+/* Html and Body */
 html {
     font-size: 16px;
 }
-body{
+
+body {
     font-family: var(--font-family-primary);
     scroll-behavior: smooth;
+    background-color: var(--white-color);
 }
-/* Html and Body End*/
 
-
-/* Container Start*/
-
-.container{
+/* Container */
+.container {
     max-width: 1152px;
     margin-inline: auto;
 }
 
-@media (max-width:1200px){
-    .container{
+@media (max-width: 1200px) {
+    .container {
         max-width: 960px;
     }
 }
 
-@media (max-width:992px){
-    .container{
+@media (max-width: 992px) {
+    .container {
         max-width: 720px;
     }
-
 }
 
-@media (max-width:768px){
-    .container{
+@media (max-width: 768px) {
+    .container {
         max-width: 550px;
     }
-
 }
 
-@media (max-width:575px){
-    .container{
+@media (max-width: 575px) {
+    .container {
         max-width: 100%;
-        padding-inline: 1rem;
+        
     }
+   
 }
-/* Container End */
 
-/* Button Blue Start */
-
-.btn-blue{
-    padding: 10px 20px;
+/* Buttons */
+.btn-blue {
+    padding: 10px 25px;
     background-color: var(--text-dark-color);
     color: var(--white-color);
     display: inline-block;
-    border-top-left-radius: 12px 4px  12px 4px;
+    border-radius: 12px 4px 12px 4px;
     font-family: var(--font-family-secondary);
-    font-size:var(--font-size-20);
+    font-size: var(--font-size-20);
     font-weight: var(--font-medium);
-
+    line-height: var(--line-height-29);
 }
 
-/* Button Blue End*/
-
-/* Button Orange Start*/
 .btn-orange {
-    padding: 0px 35px;
+    padding: 10px 25px;
     background-color: var(--btn-color);
     color: var(--white-color);
-    display: inline-block;
-    border-radius:10px;
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-16);
-    font-weight: var(--font-bold);
-    line-height: var(--line-hight-58);
-
 }
-/* Button Orange End*/
+
+/* Utility Classes */
+.d-flex {
+    display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.m-auto {
+    margin: auto;
+}
+.text-center {
+    text-align: center;
+}
