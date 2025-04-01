@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant-Where Food Meets Creativity</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
@@ -16,12 +18,13 @@
 </head>
 
 <body>
+    <!-- Header Start -->
     <header>
         <div class="container">
             <nav class="navbar d-flex justify-content-between align-items-center">
                 <img src="assets/image/logo/logo 1.svg" alt="Restaurant-Logo">
-                <div class="menu" id="menu">
-                    <ul class="d-flex align-items-center">
+                <div class="menu d-flex align-items-center m-auto" id="menu">
+                    <ul class="d-flex align-items-center text-16 text-medium">
                         <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
@@ -33,58 +36,252 @@
                     </ul>
                 </div>
 
-                <a href="#" class="btn-orange btn-blue">Book a table</a>
-                <button class="menu-toggle" id="menuToggle">☰</button>
+                <a href="#" class=" btn btn-orange ">Book a table</a>
+                <button class="menu-toggle " id="menuToggle">☰</button>
             </nav>
         </div>
     </header>
-
     <!-- Header End -->
 
+    <!-- Main Start -->
+    <main>
+
+        <!-- Start Hero Section Start -->
+
+        <section class="hero-section d-flex justify-content-between align-items-center">
+
+            <div class="right-hero text-16">
+                <h1>We provide the <span>best food for you</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur <span> adipiscing elit, sed do eiusmod tempor incididunt
+                        ut</span> labore et dolore magna aliqua.</p>
+                <div class="hero-btn d-flex">
+                    <a href="#" class="btn btn-blue">Menu</a>
+                    <a href="#" class="btn btn-orange">Book a table</a>
+                </div>
+                <div class="social-icons d-flex  align-items-center">
+                    <a href="#"><img src="./assets/image/logo/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="./assets/image/logo/twiter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="./assets/image/logo/instagram.svg" alt="Instagram"></a>
+
+                    <div class="Logo-side-line"></div>
+                </div>
+            </div>
+            <div class="left-hero">
+                <div class="img-wrap">
+                    <!-- float -->
+                    <img src="./assets/image/Mask groupbaner .svg" alt="" class="main-img">
+                    <!-- fluid -->
+                    <img src="assets/image/dish-2 1.svg" alt="" class="bg-dow">
+                    <div class="bg-down">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Start Hero Section  End -->
+
+        <section class="featured-dishes">
+            <div class="container">
+                <div class="highlighted-menu align-items-center d-flex  text-center">
+                    <h2 class="styled-text text-center text-50 ">Our Special Dishes</h2>
+                    <p class="text-center text-20 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod
+                        tempor incididunt </p>
+                    <img class="bg-texture-1" src="./assets/image/texture/banerleaf.svg" alt="bg-image">
+                    <img class="bg-texture-2" src="./assets/image/texture/banerleaf-2.svg" alt="bg-image">
+                    <img class="bg-texture-3" src="./assets/image/texture/card-bg.png" alt="bg-image">
+                    <img class="bg-texture-4" src="./assets/image/texture/bg-3-leaf.png" alt="bg-image">
+                    <img class="dish-bg-1" src="./assets/image/texture/banerleaf.svg" alt="bg-image">
+                    <img class="dish-bg-2" src="./assets/image/texture/bg1-leaf.png" alt="bg-image">
+                    <img class="dish-bg-3" src="./assets/image/texture/bg-2.png" alt="bg-image">
+                </div>
+
+                <div class="dish-collection d-flex">
+                    <div class="dish-card d-flex">
+                        <div>
+                            <img width="200px" src="./assets/image/dish-1 .svg" alt="Dish-Image">
+                            <span class="dish-price">$12</span>
+                        </div>
+                        <h4 class="styled-text text-20 text-center ">Lumpia with Sauce</h4>
+                        <p class="text-center ">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                        </p>
+                    </div>
+                    <div class="dish-card align-items-center d-flex">
+                        <div>
+                            <img width="200px" src="./assets/image/dish-2.svg" alt="Dish-Image">
+                            <span class="dish-price">$12</span>
+                        </div>
+                        <h4 class="styled-text text-20 text-center ">Fish and Veggie</h4>
+                        <p class="text-center ">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                        </p>
+                    </div>
+                    <div class="dish-card align-items-center d-flex">
+                        <div>
+                            <img width="200px" src="./assets/image/dish-3.svg" alt="Dish-Image">
+                            <span class="dish-price text-20">$12</span>
+                        </div>
+                        <h4 class="styled-text text-20 text-center ">Tofu Chili</h4>
+                        <p class="text-center ">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                        </p>
+                    </div>
+                    <div class="dish-card align-items-center d-flex">
+                        <div>
+                            <img width="200px" src="./assets/image/dish-4.svg" alt="Dish-Image">
+                            <span class="dish-price ">$12</span>
+                        </div>
+
+                        <h4 class="styled-text text-20 text-center ">Egg and Cocumber</h4>
+                        <p class="text-center ">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                        </p>
+                    </div>
+                </div>
+                <div class="restaurant-section d-flex align-items-center m-auto">
+                    <img src="./assets/image/leaf-dish.png" alt="Dish-Image">
+                    <div class="restaurant-content">
+                        <h3 class="restaurant-title text-60 text-bold">Welcome to Our <span>Restaurant</span> </h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                            <div class="restaurant-btn-group">
+                                <a class=" btn btn-blue" href="#">Menu</a>
+                                <a class="btn btn-orange" href="#">Book a table</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- food section end -->
+
+        <!-- cheaf Section Start -->
+        <div class="container">
+            <section class="chef-Section d-flex center-Align">
+                <div class="chef-Container d-flex">
+                    <h3 class="title text-50">Our Expert Chefs</h3>
+                    <p class="text-center ">Lorem ipsum dolor sit amet, consectetur </p>
+                    <p class="text-center ">adipiscing elit, sed do eiusmod tempor incididunt </p>
+                    <p class="text-center ">ut labore et dolore magna aliqua</p>
+                    <div class="chef-Details d-flex align-items-center">
+                        <div class="chef-Item d-flex">
+                            <i class="fa-solid fa-check"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur </p>
+                        </div>
+                        <div class="chef-Item d-flex">
+                            <i class="fa-solid fa-check"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur </p>
+                        </div>
+                        <div class="chef-Item d-flex">
+                            <i class="fa-solid fa-check"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur </p>
+                        </div>
+                        <div class="chef-Item d-flex">
+                            <i class="fa-solid fa-check"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur </p>
+                        </div>
+                        <div class="chef-Item d-flex">
+                            <i class="fa-solid fa-check"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur </p>
+                        </div>
+                        <div class="chef-Item  d-flex">
+                            <i class="fa-solid fa-check"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur </p>
+                        </div>
+                    </div>
+                    <div class="buttonGroup centerAlign">
+                        <a class="btn btn-blue" href="#">Menu</a>
+                        <a class="btn btn-orange" href="#">Book a Table</a>
+                    </div>
+                </div>
+                <img class="chef-image " src="./assets/image/chef 1.svg" alt="Expert Chef Illustration">
+            </section>
+        </div>
+
+        <!-- cheaf Section End -->
+        <!-- Customers Review Start -->
+
+        <section class="customer-reviews">
+            <div class="container">
+                <div class="reviews-section align-items-center d-flex ">
+
+                    <div class="review-heading  text-center">
+                        <h3 class="section-title text-50">What Our Customers Say</h3>
+                        <p class="m-au">We take pride in delivering excellent services to our valued clients.</p>
+                    </div>
+
+                    <div class="testimonial text-center">
+                        <img src="./assets/image/Costomer-review.svg" alt="Customer Profile" class="customer-photo">
+                        <div class="rating text-20">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-message text-16">
+                            Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices
+                            neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum
+                            sagittis ac eu aliquam quis. Ornare tincidunt tempus semper
+                        </p>
+                        <div class="customer-name text-18 text-bold ">Ama Ampomah</div>
+                        <div class="customer-position text-15">CEO & Founder, Inc.</div>
+                    </div>
+
+                </div>
+                <ul class="dot d-flex">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Customers Review End -->
+
+    </main>
     <!-- Footer Start -->
     <footer>
-        <div class="suscribe  d-flex align-items-center text-center ">
-            <div class="subscribe">
+        <div class="subscribe  d-flex align-items-center text-center text-bold ">
+            <div class="subscribe-content text-bold">
                 <h2>Get Your Promo Code <span>Subscribe to Our Newsletter</span></h2>
-                <div class="input-container">
+                <div class="input-container d-flex align-items-center text-16">
                     <input type="email" placeholder="Enter your email">
                     <button>Subscribe</button>
                 </div>
             </div>
         </div>
 
-        <div class="footer-section">
+        <div class="footer-section text-15">
             <div class="container">
-                <div class="top-footer">
+                <div class="top-footer d-flex">
                     <div class="logo">
                         <img src="./assets/image/logo/logo 1.svg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <span>elit, sed do eiusmod tempor
+                        <p class="text-16 text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing <span>elit, sed
+                                do eiusmod tempor
                                 incididuntut
                                 labore et </span> dolore .Learn more</p>
                     </div>
 
 
-                    <div class="links">
+                    <div class="links text-15">
                         <h2>Navigation</h2>
                         <ul>
-                            <li><a href="">Menu</a></li>
-                            <li><a href="">Aboutus</a></li>
-                            <li><a href="">Contact us</a></li>
-                            <li><a href="">Main debug</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Main debug</a></li>
 
                         </ul>
                     </div>
-                    <div class="links">
+                    <div class="links text-15">
                         <h2>DISHES</h2>
                         <ul>
-                            <li><a href="">Fishes & vegiies</a></li>
-                            <li><a href="">Toffu</a></li>
-                            <li><a href="">Egg curry</a></li>
-                            <li><a href="">Panner</a></li>
+                            <li><a href="#">Fishes & vegiies</a></li>
+                            <li><a href="#">Toffu</a></li>
+                            <li><a href="#">Egg curry</a></li>
+                            <li><a href="#">Panner</a></li>
 
                         </ul>
                     </div>
-                    <div class="follow-links ">
+                    <div class="follow-links d-flex text-15">
                         <h2> follow us</h2>
                         <div>
                             <div class="circle "><a href="#"><img src="./assets/image/logo/facebook.svg" alt=""></div>
@@ -99,7 +296,7 @@
                 </div>
 
                 <!--  fotter midlle  -->
-                <div class="middle-footer">
+                <div class="middle-footer text-20">
                     <h2> openning hours </h2>
                     <div class="shedule">
                         <div class="s1">
@@ -120,7 +317,7 @@
                 <!-- footer bottom  -->
                 <div class="bottom-footer">
                     <div class="copyright">
-                        <p>@ 2022 Restaurants. All Right Reserved. Designed by <span>Isaac</span> </p>
+                        <p>© 2022 Restaurants. All Right Reserved. Designed by <span>vimal</span> </p>
                     </div>
                     <div class="term">
                         <div class="p"> <a href="#">Term of
@@ -133,7 +330,7 @@
             </div>
         </div>
     </footer>
-
+    <!-- Footer End-->
 </body>
 </body>
 
