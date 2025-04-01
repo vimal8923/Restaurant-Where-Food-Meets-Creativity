@@ -169,9 +169,17 @@ nav img {
     .btn-orange {
         text-align: center;
         margin-top: 15px;
-        padding: 5px 8px;
+        padding: 1px 1px;
         margin: 5px;
-        font-size: 16px;
+        font-size: 15px;
+    }
+
+    .btn-blue{
+        text-align: center;
+        margin-top: 15px;
+        padding: 9px 1px;
+        margin: 5px;
+        font-size: 15px;
     }
 }
 
@@ -771,7 +779,7 @@ hr {
 
 /* Responsive Design  Hero section Start*/
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .hero-section {
         flex-direction: column-reverse;
     }
@@ -850,6 +858,10 @@ hr {
     .right-hero h1 {
         font-size: var(--font-size-60);
     }
+    .right-hero span {
+        display: inline;
+    
+    }
 
     .hero-section .Logo-side-line {
         display: none;
@@ -896,7 +908,7 @@ hr {
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 640px) {
     .hero-section::after {
         left: -7%;
         top: -17%;
@@ -916,7 +928,7 @@ hr {
 
 }
 
-@media (max-width: 475px) {
+@media (max-width: 480px) {
     .hero-section::before {
         left: 7%;
         bottom: 67%;
